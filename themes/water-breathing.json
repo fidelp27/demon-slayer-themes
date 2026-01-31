@@ -1,0 +1,87 @@
+{
+    "name": "Water Breathing",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "editor.background": "#0a1628",
+        "editor.foreground": "#c9e6ff",
+        "activityBar.background": "#071122",
+        "activityBar.foreground": "#4da6ff",
+        "activityBarBadge.background": "#00d4ff",
+        "sideBar.background": "#0d1a2d",
+        "sideBar.foreground": "#a8d5ff",
+        "sideBarTitle.foreground": "#4da6ff",
+        "statusBar.background": "#06binoc",
+        "statusBar.foreground": "#4da6ff",
+        "tab.activeBackground": "#0f1f35",
+        "tab.activeForeground": "#00d4ff",
+        "tab.inactiveBackground": "#0a1628",
+        "editorLineNumber.foreground": "#1a3a5c",
+        "editorLineNumber.activeForeground": "#4da6ff",
+        "editorCursor.foreground": "#00d4ff",
+        "editor.selectionBackground": "#1a3a5c77",
+        "terminal.ansiBlue": "#4da6ff",
+        "terminal.ansiCyan": "#00d4ff",
+        "terminal.ansiGreen": "#4dffb8"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#4d7a99",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#00d4ff"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#66ccff"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "foreground": "#4da6ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": [
+                "entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#80e5ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Class name",
+            "scope": [
+                "entity.name.class"
+            ],
+            "settings": {
+                "foreground": "#99d6ff",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

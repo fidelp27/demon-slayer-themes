@@ -1,0 +1,57 @@
+{
+    "name": "demon-slayer-themes",
+    "displayName": "Demon Slayer Breathing Themes",
+    "description": "VS Code themes inspired by Demon Slayer breathing techniques - Water, Flame, Thunder, and Insect styles with vibrant anime colors",
+    "version": "1.0.0",
+    "publisher": "fidelp27",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark",
+        "anime",
+        "water",
+        "flame",
+        "thunder",
+        "breathing",
+        "vibrant",
+        "colorful"
+    ],
+    "galleryBanner": {
+        "color": "#1a1a2e",
+        "theme": "dark"
+    },
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fidelp27/demon-slayer-themes"
+    },
+    "license": "MIT",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Water Breathing",
+                "uiTheme": "vs-dark",
+                "path": "./themes/water-breathing.json"
+            },
+            {
+                "label": "Flame Breathing",
+                "uiTheme": "vs-dark",
+                "path": "./themes/flame-breathing.json"
+            },
+            {
+                "label": "Thunder Breathing",
+                "uiTheme": "vs-dark",
+                "path": "./themes/thunder-breathing.json"
+            },
+            {
+                "label": "Insect Breathing",
+                "uiTheme": "vs-dark",
+                "path": "./themes/insect-breathing.json"
+            }
+        ]
+    }
+}
